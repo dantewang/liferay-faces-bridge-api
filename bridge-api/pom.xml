@@ -255,7 +255,7 @@
 								!com.liferay.faces.bridge.*,\
 								!com.liferay.faces.portlet,\
 								!com.liferay.faces.portlet.*,\
-								jakarta.el;version="[2.2.0,4.0.0)",\
+								jakarta.el;version="[2.2.0,6.0.0)",\
 								*
 							# The following configuration enables the Bridge API bundle to obtain necessary SPI
 							# implementations.
