@@ -29,9 +29,9 @@ import org.osgi.annotation.versioning.ProviderType;
  * @author Dante Wang
  */
 @ProviderType
-public interface BridgeFacesContextFactory {
+public abstract class BridgeFacesContextFactory {
 
-	public FacesContext getFacesContext(
+	public abstract FacesContext getFacesContext(
 			FacesContextFactory facesContextFactory, PortletContext portletContext,
 			PortletRequest portletRequest, PortletResponse portletResponse, Lifecycle lifecycle)
 		throws FacesException;
